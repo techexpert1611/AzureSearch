@@ -13,12 +13,29 @@ Azure AI Search is an Azure resource used for adding a full text search experien
 **Searchable Fields** : Department, Gender, JobRole
 
 <br>
-<br>
 
 ### Project Setup
 ```python
 pip install -r requirements.txt
 ```
+
+### Configure Azure Client 
+```python
+SERVICE_NAME=<AZURE_AI_SEARCH_SERVICE_NAME>
+```
+Name of the Azure AI Search Service.
+
+```python
+INDEX_NAME=<AZURE_AI_INDEX_NAME>
+```
+Name of the Azure AI Search Service Index after importing the data.
+
+```python
+ADMIN_KEY=<PRIMARY_ADMIN_KEY>
+```
+Primary Admin Key value 
+
+_**Replace** all 3 values in with **original values** in **env.py** file._
 
 ### Run Project
 ```python
